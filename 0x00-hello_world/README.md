@@ -1,1 +1,1 @@
-Basic operations in C
+Basic operations in C language
