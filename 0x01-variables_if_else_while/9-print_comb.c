@@ -10,7 +10,9 @@ int main(void)
 
 	while (a <= '9')
 	{
-		putchar(a + ', ');
+		putchar(a);
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 
