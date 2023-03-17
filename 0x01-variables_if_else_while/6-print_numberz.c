@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int i = 0;
+	int i = 'a';
 
-	while (i < 10)
+	while (i < 'k')
 	{
 		putchar(i);
 		i++;
