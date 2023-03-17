@@ -12,6 +12,7 @@ int main(void)
 	{
 		if (a == 'e' || a == 'q')
 		{
+			a++;
 			continue;
 		}
 		else
@@ -20,6 +21,7 @@ int main(void)
 			a++;
 		}
 	}
+	putchar('\n');
 
 	return (0);
 }
