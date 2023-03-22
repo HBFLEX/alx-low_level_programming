@@ -3,9 +3,14 @@
 /**
  * print_last_digit - prints the last digit of a number
  * @n: the value to be returned from
- * Return: 0 always
+ * Return: the value of the last digit
 */
 int print_last_digit(int n)
 {
-	return (n >= 0 ? n % 10 : -n % 10);
+	int last_digit = n % 10;
+
+	if (n < 0)
+		last_digit *= -1;
+	_putchar(last_digit);
+	return (last_digit);
 }
