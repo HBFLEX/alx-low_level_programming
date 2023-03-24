@@ -1,4 +1,4 @@
-#include "mai.h"
+#include "main.h"
 
 /**
  * _isdigit - prints 1 if character is digit otherwise 0
