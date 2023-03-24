@@ -2,11 +2,12 @@
 
 /**
  * more_numbers - prints numbers from 0 up to 14, 10 times
+ * Return: Always 0
 */
 void more_numbers(void)
 {
-	int i = 0;
-	int j = 0;
+	int i;
+	int j;
 
 	for (i = 0; i <= 10; i++)
 	{
