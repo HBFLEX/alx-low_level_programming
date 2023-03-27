@@ -18,6 +18,6 @@ void rev_string(char *s)
 
 	for (i = 0; i < str_len; i++)
 	{
-		*(s + i) = reversed_string(i);
+		*(s + i) = reversed_string[i];
 	}
 }
