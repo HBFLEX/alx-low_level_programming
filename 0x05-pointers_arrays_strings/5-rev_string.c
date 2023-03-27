@@ -9,7 +9,7 @@ void rev_string(char *s)
 {
 	int str_len = strlen(s);
 	int i;
-	int reversed_string[str_len];
+	int reversed_string[10];
 
 	for (i = str_len; i >= 0; i--)
 	{
