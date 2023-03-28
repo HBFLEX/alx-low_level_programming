@@ -9,13 +9,13 @@ void print_array(int *a, int n)
 	{
 		if (i == n - 1)
 		{
-			_putchar(*(a + i));
+			_putchar((10 % *(a + i)) + '0');
 			_putchar('\n');
 			break;
 		}
 		else
 		{
-			_putchar(*(a + i));
+			_putchar((10 % *(a + i)) + '0');
 			_putchar(',');
 			_putchar(' ');
 		}
