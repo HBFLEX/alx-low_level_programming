@@ -7,10 +7,16 @@
 */
 void rev_string(char *s)
 {
-	int str_len = strlen(s);
+	int str_len = 0;
 	int i;
-	char strcopy[] = s;
-	int reversed_string[strlen(strcopy)];
+
+	while (*s != '\0')
+	{
+		str_len++;
+		s++;
+	}
+
+	int reversed_string[str_len];
 
 	for (i = str_len; i >= 0; i--)
 	{
